@@ -12,7 +12,22 @@ footer p{
 }
 /*Media query*/
 @media (max-width:768px){
-    #intro{
-        width: 90%;
+    #intro, #equipo{
+        width: 90% !important;
     }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+@media (max-width:576px){
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+#img-equipo{
+    max-height: 30rem !important;
+    width: 60%;
 }
